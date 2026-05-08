@@ -1,2 +1,12 @@
-# sosari
-Reference List
+# S O S A R I
+**Reference List**
+
+1.	Ushio J, Kanno A, Ikeda E, Ando K, Nagai H, Miwata T, et al. Pancreatic ductal adenocarcinoma: Epidemiology and risk factors. Diagnostics. 2021 Mar 20;11(3):562. Available from: https://doi.org/10.3390/diagnostics11030562
+2.	Mowday AM, Van De Laak JM, Fu Z, Henare KL, Dubois L, Lambin P, et al. Tumor-targeting bacteria as immune stimulants – the future of cancer immunotherapy? Critical Reviews in Microbiology. 2024 Feb 12;50(6):955–70. Available from: https://doi.org/10.1080/1040841x.2024.2311653
+3.	Aganja RP, Sivasankar C, Senevirathne A, Lee JH. Salmonella as a Promising Curative Tool against Cancer. Pharmaceutics. 2022 Oct 1;14(10):2100. Available from: https://doi.org/10.3390/pharmaceutics14102100
+4.	Sloas C, Gill S, Klichinsky M. Engineered CAR-Macrophages as adoptive immunotherapies for solid tumors. Frontiers in Immunology. 2021 Nov 24;12:783305. Available from: https://doi.org/10.3389/fimmu.2021.783305
+5.	Directive - 2001/83 - EN - EUR-LEX. Available from: https://eur-lex.europa.eu/eli/dir/2001/83/oj/eng
+
+
+Date: May 2026
+
