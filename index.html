@@ -1,19 +1,17 @@
+Sosari references · HTML
+Copy
+
 <!DOCTYPE html>
 <html lang="en">
-
+ 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+ 
   <title>SOSARI – References</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Cormorant+Garamond:wght@300;400;600&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
-
+ 
   <style>
-
+ 
     :root {
       --ink: #0e0530;
       --ink-light: #2a1660;
@@ -24,23 +22,23 @@
       --accent: #1f096f;
       --accent-dim: #230d58;
     }
-
+ 
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
-
+ 
     body {
       background: #1f096f;
       min-height: 100vh;
       display: flex;
       justify-content: center;
       padding: 40px 20px;
-      font-family: 'EB Garamond', serif;
+      font-family: 'Aptos', 'Aptos Display', Calibri, 'Segoe UI', Arial, sans-serif;
       color: var(--ink);
     }
-
+ 
     .page {
       background: var(--paper);
       width: 100%;
@@ -53,16 +51,16 @@
       border-top: 4px solid var(--rule);
       position: relative;
     }
-
+ 
     header {
       text-align: center;
       margin-bottom: 50px;
       border-bottom: 1px solid var(--rule-light);
       padding-bottom: 35px;
     }
-
+ 
     .label {
-      font-family: 'Libre Baskerville', serif;
+      font-family: 'Aptos', 'Aptos Display', Calibri, 'Segoe UI', Arial, sans-serif;
       font-size: 10px;
       letter-spacing: 0.28em;
       text-transform: uppercase;
@@ -70,24 +68,24 @@
       margin-bottom: 20px;
       display: block;
     }
-
+ 
     h1 {
-      font-family: 'Cormorant Garamond', serif;
+      font-family: 'Aptos Display', 'Aptos', Calibri, 'Segoe UI', Arial, sans-serif;
       font-size: 42px;
       font-weight: 300;
       letter-spacing: 0.05em;
       color: var(--ink);
       margin-bottom: 12px;
     }
-
+ 
     .subtitle {
       color: var(--accent-dim);
       font-style: italic;
       font-size: 16px;
     }
-
+ 
     .section-heading {
-      font-family: 'Libre Baskerville', serif;
+      font-family: 'Aptos', 'Aptos Display', Calibri, 'Segoe UI', Arial, sans-serif;
       font-size: 10px;
       letter-spacing: 0.30em;
       text-transform: uppercase;
@@ -97,14 +95,14 @@
       align-items: center;
       gap: 14px;
     }
-
+ 
     .section-heading::after {
       content: '';
       flex: 1;
       height: 1px;
       background: var(--rule-light);
     }
-
+ 
     ol {
       list-style: none;
       counter-reset: ref-counter;
@@ -112,7 +110,7 @@
       flex-direction: column;
       gap: 24px;
     }
-
+ 
     li {
       counter-increment: ref-counter;
       display: grid;
@@ -124,91 +122,87 @@
       color: var(--ink-light);
       font-size: 16px;
     }
-
+ 
     li:last-child {
       border-bottom: none;
       padding-bottom: 0;
     }
-
+ 
     li::before {
       content: counter(ref-counter) ".";
-      font-family: 'Libre Baskerville', serif;
+      font-family: 'Aptos', 'Aptos Display', Calibri, 'Segoe UI', Arial, sans-serif;
       font-size: 13px;
       font-weight: 700;
       color: var(--accent);
       text-align: right;
       padding-top: 3px;
     }
-
+ 
     a {
       color: var(--accent);
       text-decoration: none;
       border-bottom: 1px solid var(--rule-light);
       word-break: break-word;
     }
-
+ 
     footer {
       margin-top: 60px;
       padding-top: 24px;
       border-top: 1px solid var(--rule-light);
       text-align: center;
-      font-family: 'Libre Baskerville', serif;
+      font-family: 'Aptos', 'Aptos Display', Calibri, 'Segoe UI', Arial, sans-serif;
       font-size: 10px;
       letter-spacing: 0.15em;
       text-transform: uppercase;
       color: var(--accent-dim);
     }
-
+ 
   </style>
 </head>
-
+ 
 <body>
-
+ 
   <div class="page">
-
+ 
     <header>
       <span class="label">S O S A R I</span>
       <h1>CARM-Salmonella for Hypoxic Pancreatic Cancer</h1>
       <p class="subtitle">Reference List</p>
     </header>
-
-    <div class="section-heading">
-      Cited Sources
-    </div>
-
+ 
     <ol>
-
+ 
       <li>
         Ushio J, Kanno A, Ikeda E, Ando K, Nagai H, Miwata T, et al. Pancreatic ductal adenocarcinoma: Epidemiology and risk factors.</em>
         Diagnostics. 2021 Mar 20;11(3):562.
       </li>
-
+ 
       <li>
         Mowday AM, Van De Laak JM, Fu Z, Henare KL, Dubois L, Lambin P, et al. Tumor-targeting bacteria as immune stimulants – the future of cancer immunotherapy?</em>
         Critical Reviews in Microbiology. 2024 Feb 12;50(6):955–70.
       </li>
-
+ 
       <li>
         Aganja RP, Sivasankar C, Senevirathne A, Lee JH. Salmonella as a Promising Curative Tool against Cancer.</em>
         Pharmaceutics. 2022 Oct 1;14(10):2100.
       </li>
-
+ 
       <li>
         Sloas C, Gill S, Klichinsky M. Engineered CAR-Macrophages as adoptive immunotherapies for solid tumors.</em>
         Frontiers in Immunology. 2021 Nov 24;12:783305.
       </li>
-
+ 
       <li>
         Directive - 2001/83 - EN - EUR-LEX. Available from: https://eur-lex.europa.eu/eli/dir/2001/83/oj/eng
       </li>
-
+ 
     </ol>
-
+ 
     <footer>
       May 2026
     </footer>
-
+ 
   </div>
-
+ 
 </body>
 </html>
